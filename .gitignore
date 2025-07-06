@@ -1,0 +1,13 @@
+.DS_Store
+.Trash
+*.log
+*.pyc
+__pycache__/
+.vscode/
+.ipynb_checkpoints/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+node_modules/
+.env
