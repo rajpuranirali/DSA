@@ -16,7 +16,7 @@ print(fact(5))  # Output: 120
 def fibonacci(n):
     if n <= 1:
         return n
-       
+
     return fibonacci(n - 1) + fibonacci(n - 2) # 
     print(fibonacci)
     # return fibonacci(n - 1) + fibonacci(n - 2) # 
@@ -29,3 +29,6 @@ print(fibonacci(10))
 # print("Fibonacci series up to 10 terms:")
 # for i in range(10):
 #     print(fibonacci(i), end=" ") 
+
+
+
