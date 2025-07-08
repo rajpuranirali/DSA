@@ -1,3 +1,4 @@
+# Print 1 to N
 def number (n,i=1):
     if(i>n):
         return
