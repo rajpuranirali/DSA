@@ -1,6 +1,9 @@
+
+#when i<n it will execute else block.
+# When i>n it will execute if block and return value of add. 
 def sum(n,i =0,add=0):
     if(i>n):
-        return add
+        return add 
     else:
         add = add + i
         print(add)
