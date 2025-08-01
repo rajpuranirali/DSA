@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .DS_Store
 .Trash
 *.log
@@ -11,3 +12,25 @@ __pycache__/
 *.pdf
 node_modules/
 .env
+=======
+# Ignore system & config files
+../*
+!./*
+
+# Ignore macOS & IDE files
+.DS_Store
+*.log
+
+# Ignore Python or Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+
+# Ignore node/npm
+node_modules/
+
+# Ignore JetBrains/VSCode settings
+.idea/
+.vscode/
+>>>>>>> f93d344 (Clean commit with only project files)
